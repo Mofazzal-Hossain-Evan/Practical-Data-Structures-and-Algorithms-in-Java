@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Practical-Data-Structures-and-Algorithms-in-Java.iml" filepath="$PROJECT_DIR$/.idea/Practical-Data-Structures-and-Algorithms-in-Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/course-exercises/course-exercises.iml" filepath="$PROJECT_DIR$/course-exercises/course-exercises.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learning-algorithms/learning-algorithms.iml" filepath="$PROJECT_DIR$/learning-algorithms/learning-algorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learning-datastructures/learning-datastructures.iml" filepath="$PROJECT_DIR$/learning-datastructures/learning-datastructures.iml" />
+    </modules>
+  </component>
+</project>
