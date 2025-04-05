@@ -13,5 +13,11 @@ public class Application2 {
             System.out.println(animals.get(i));
         }
 
+        for (String value : animals){
+            System.out.println(value);
+        }
+
+
+
     }
 }
