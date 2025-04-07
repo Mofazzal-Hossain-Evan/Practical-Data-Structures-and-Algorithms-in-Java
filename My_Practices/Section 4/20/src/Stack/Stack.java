@@ -1,39 +1,39 @@
+package Stack;
+
 public class Stack {
 
     private int maxSize;
-    private long[] stackArray;
+    private char[] stackArray;
     private int top;
 
-
-    public Stack(int Size ) {
-        this.maxSize = Size;
-        this.stackArray = new long[maxSize];
+    public Stack(int size){
+        this.maxSize = size;
+        this.stackArray = new char[maxSize];
         this.top = -1;
     }
 
-    public void push(long j){
-
-        if (isFull()) {
-            System.out.println("this stack is full");
-        } else {
+    public void push(char j){
+        if(isFull()){
+            System.out.println(" this stack is already full");
+        }else{
             top++;
             stackArray[top] = j;
         }
+
     }
 
-    public long pop(){
-
-        if (isEmpty()){
-            System.out.println("the stack is empty");
-            return -1;
-        } else {
+    public char pop(){
+        if(isEmpty()){
+            System.out.println("the stack is already empty");
+            return 'O';
+        } else{
             int old_top = top;
             top--;
             return stackArray[old_top];
         }
     }
 
-    public long peak(){
+    public char peak(){
         return stackArray[top];
     }
 

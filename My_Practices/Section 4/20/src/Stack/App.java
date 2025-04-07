@@ -1,9 +1,9 @@
-package ds.stack;
+package Stack;
 
 public class App {
 
     public static void main(String[] args) {
-        ds.Stack.Stack theStack = new ds.Stack.Stack(3);
+        Stack theStack = new Stack(3);
 //		theStack.push(20);
 //		theStack.push(40);
 //		theStack.push(60);
@@ -14,12 +14,12 @@ public class App {
 //			System.out.println(value);
 //		}
 
-        System.out.println(reverseString("Imtiaz"));
+        System.out.println(reverseString("Imran"));
     }
 
     public static String reverseString(String str){
         int stackSize = str.length(); // get the max stack size
-        ds.Stack.Stack theStack = new ds.Stack.Stack(stackSize); // we make the stack
+        Stack theStack = new Stack(stackSize); // we make the stack
 
         for(int j = 0; j < str.length(); j++){
             char ch = str.charAt(j); // getting a char from the input string
